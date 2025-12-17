@@ -41,8 +41,11 @@ public class AssistantController {
     ChatMemory chatMemory;
 
     /**
-     * http://localhost:8100/sendMsg?msg=404是什么意思&&modelType=qwen
-     *
+     * http://127.0.0.1:8100/sendMsg
+     * {
+     *     "msg":"[告警]11-20 13:33:00,vb_base_java&错误码=1621346903&错误类型=1(系统类型)&目的IP=10.150.12.35&目的Server=ao_vb_base_account_server&目的Service/CGI=handle_qaire_customer_updated的系统错误量异常,错误码1621346903(系统-call sas system error)(当前值1,大于等于阈值1)(配置ID=81)(系统错误码兜底告警，连续1次就触发，5分钟内告警一次，未发给ECC)",
+     *     "modelType":"qwen"
+     * }
      * @param
      * @return
      */
